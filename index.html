@@ -14,6 +14,19 @@
       rel="stylesheet"
       href="css/style.css"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.38/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>🕰 World Clock</title>
@@ -21,7 +34,7 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-
+      <h2 class="subtitle">🕛🕐🕑🕒🕓🕔🕕🕖🕗🕘🕙🕚</h2>
       <select id="city">
         <option value="">Select a city...</option>
         <option value="current">📍💁🏼‍♀️ My current location</option>
@@ -36,21 +49,10 @@
       <div id="cities">
         <div
           class="city"
-          id="los-angeles"
+          id="current"
         >
           <div>
-            <h2>Los Angeles</h2>
-            <div class="date"></div>
-          </div>
-          <div class="time"></div>
-        </div>
-
-        <div
-          class="city"
-          id="paris"
-        >
-          <div>
-            <h2>Paris</h2>
+            <h2 class="location"></h2>
             <div class="date"></div>
           </div>
           <div class="time"></div>
@@ -60,8 +62,15 @@
 
     <footer>
       This project was coded with 🤍 by
-      <a href="https://gloriatoth.netlify.app/">Glo</a> and is
-      <a href="https://github.com/gloriatoth/plus-add-on-2-world-clock"
+      <a
+        href="https://gloriatoth.netlify.app/"
+        target="_blank"
+        >Gloria</a
+      >
+      and is
+      <a
+        href="https://github.com/gloriatoth/plus-add-on-2-world-clock"
+        target="_blank"
         >open sourced on GitHub</a
       >.
     </footer>
